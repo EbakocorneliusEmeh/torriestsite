@@ -3,7 +3,9 @@ import React from 'react'
 function bodya() {
   return (
     <div>
-      
+      <div>
+        <h1 className='layout'>Welcome to Africa Wizzy Safari</h1>
+      </div>
       <div className='about'>
         <div className='lead'>
             <img src="https://s3-alpha-sig.figma.com/img/8c88/8b29/002577f7500b2ab4a99aaa7d8e6be7f0?Expires=1741564800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=QZofUFwutUu1VyMqr~cErUsYGJrnpHnjb78T7n7Fqg12lWSdRzJtAa9LWR9r8rmE7McnomsQTBHjzwXdj2-XUaNEtAqGSQvET1lZeBnh4Bm1z05QGOj41DHomDaUIJVytMK84dZBvGTv~yMFmalzoYE55hLZ5cCkHwtf0PjxN1tTYQqWLaZTNXdIVRavEIPbthDuiuzGLF7~dFioLYpOsu9vtin2doQL1gZIiyLhC1~BxCfBmxRtPaZ0JKsUuUtMtNDUmxH1H~oU27haaOJoFZbkKhN9kAUrpiLOsqm35YdSqAb2GQpn2aFTpedPKhOFrRdHK73K-qfu8kHDOQ37Qw__" alt="" className='dap' />

@@ -1,7 +1,7 @@
-import "react";
-
-function header() {
+export default function Headera() {
   return (
+    <div>
+      
     <div>
       <div className="head">
         <div className="part1">
@@ -24,7 +24,7 @@ function header() {
             <img src="/images/download  instal.png" alt="" className="altt" />
           </div>
         </div>
-        <div className="part2">
+                <div className="part2">
           <div className="part2-1">
             <div className="call">
               <img
@@ -62,59 +62,60 @@ function header() {
             <button className="btnn1">Sign in</button>
           </div>
         </div>
-        <div className="header">
-          <div className="cove">
-            <h1>
-              Experience the beauty <br /> of Rwanda with us
-            </h1>
-            <h4>Discover the Land of a Thousand Hills</h4>
+        <div className="grid">
+    <div className="grid1">
+      <h1>
+        We are dedicated to <br />
+        providing the best <br />
+        travel experince.
+      </h1>
+      <p>Discover the Land of a Thousand Hills</p>
+      <div className="cat1">
+        <div className="cate1">
+          <div>
+            <h6>Guest</h6>
+            <h4>
+              2 Adult{" "}
+              <img
+                src="https://icon-library.com/images/dropdown-arrow-icon/dropdown-arrow-icon-29.jpg"
+                alt="1"
+              />
+            </h4>
+          </div>
+          <div>
+            <h6>Date</h6>
+            <h4>
+              12-13 April 2021{" "}
+              <img
+                src="https://icon-library.com/images/dropdown-arrow-icon/dropdown-arrow-icon-29.jpg"
+                alt="2"
+              />
+            </h4>
+          </div>
+          <div>
+            <h6>Package</h6>
+            <h4>
+              All{" "}
+              <img
+                src="https://icon-library.com/images/dropdown-arrow-icon/dropdown-arrow-icon-29.jpg"
+                alt="3"
+              />
+            </h4>
           </div>
         </div>
-      </div>
-      <div className="middle">
-        <div className="bad">
-           <input
-            type="text"
-            value=""
-            // onChange={(e) => setQuery(e.target.value)}
-            placeholder="Search activities or Destinations"
-            id="man"
-          /> 
-          <svg width="" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-           {/* <path fill-rule="evenodd" clip-rule="evenodd" d="M15.5 14H14.71L14.43 13.73C15.63 12.33 16.25 10.42 15.91 8.39C15.44 5.61 13.12 3.39 10.32 3.05C6.09002 2.53 2.53002 6.09 3.05002 10.32C3.39002 13.12 5.61002 15.44 8.39002 15.91C10.42 16.25 12.33 15.63 13.73 14.43L14 14.71V15.5L18.25 19.75C18.66 20.16 19.33 20.16 19.74 19.75C20.15 19.34 20.15 18.67 19.74 18.26L15.5 14ZM9.50002 14C7.01002 14 5.00002 11.99 5.00002 9.5C5.00002 7.01 7.01002 5 9.50002 5C11.99 5 14 7.01 14 9.5C14 11.99 11.99 14 9.50002 14Z" fill="#9A9AB0"/> */}
-          </svg>
-
-        </div>
-        <div className="pap">
-          <p>Guestst</p>
-          <select id="items">
-            <option value="item">2 Adult</option>
-            <option value="item"> 10children</option>
-            <option value="item">20 kids</option>
-          </select>
-        </div>
-        <div className="pap">
-          <p>DATE</p>
-          <select id="items">
-            <option value="item">12- 13 April 2021</option>
-            <option value="item"> 10-06 MAY 2022</option>
-            <option value="item">20 kids</option>
-          </select>
-        </div>
-        <div className="pap">
-          <p>pakage</p>
-          <select id="items">
-            <option value="item">ALL</option>
-            <option value="item"> 10children</option>
-            <option value="item">20 kids</option>
-          </select>
-        </div>
-        <div>
-        <button className="btnn">Book Now</button>
-        </div>
+        <button type="submit" className="btn">
+          Book Now
+        </button>
       </div>
     </div>
-  );
+    <div className="gride2">
+      <img src="https://s3-alpha-sig.figma.com/img/4ff2/5fbb/d22801330eccf9aaeedf7388f729ecdf?Expires=1743379200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=lEeXOd~NLNPd6XCObmaV~zYBNm9loEoJ1NvGhDzAS3tzPeqCWiWX1o6C5BYe3keqsQN~wJZ64D9ZWQJ5WtmhsJlLB2wANUv-WnZrUfV4PN1b2hlMdcYEzrx7~8SDhxyuLI2fOHkTZrxygDFM5Q5jYmO5fxd1NsG4DHXyAEE2hxpWlrRqY-An9QaPqxX8xNxeFhVK0wHJoEheRCDbAtpQorKciMybMefiYlRwIdhvmsGWydn~xwRG8XEDUWvD-1KERe7zjZWTKK4rgEbHptT63iSM-hjpk9DFWkn1SC~M9lw~GTkmJm4p3RtCnd3dNPqsAjGP2xsDMwB~OxCpim2nGg__" alt="" className="monkey" />
+      
+    </div>
+    </div>
+        
+      </div>
+    </div>
+    </div>
+  )
 }
-
-export default header;

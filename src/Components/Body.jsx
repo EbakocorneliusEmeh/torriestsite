@@ -138,6 +138,13 @@ function Body() {
                     <p>I recently went on a tour with <br /> XYZ Tourism Company and was <br /> extremely impressed with the <br />level of professionalism and <br /> organization.</p>
                 </div>
             </div>
+            <div>
+                <div className="vit">
+                    <div className="bar bar1"></div>
+                    <div className="bar bar2"></div>
+                    <div className="bar bar3"></div>
+                </div>
+            </div>
                
                
         </div>
