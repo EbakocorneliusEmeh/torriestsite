@@ -83,26 +83,26 @@ function Body() {
         <div className="why">
             <div className="us">
                 <h3>Why Us</h3>
-                <h1>Why Travel With Africa Wizzy Safari</h1>
+                <h1>Why Travel With Africa Wizzy Safari.</h1>
             </div>
             <div className="what">
             <div className="travel">
                 <div>
                     <img src="/images/imagecars.png" alt=""  className="pgn"/>
                 </div>
-                <h4> 100+ toues around  <br />Rwanda</h4>
+                <h4> 100+ toues around  <br />Rwanda.</h4>
             </div>
             <div className="travel">
                 <div>
                     <img src="/images/imagestick.png" alt="" className="pgn" />
                 </div>
-                <h4>100% trusted travel <br /> agency</h4>
+                <h4>100% trusted travel <br /> agency.</h4>
             </div>
             <div className="travel">
                 <div>
                     <img src="/images/exoerence.avif" alt="" className="pgn" />
                 </div>
-                <h4>10 years of travel  <br />experence</h4>
+                <h4>10 years of travel  <br />experence.</h4>
             </div>
             <div className="travel">
                 <div>
