@@ -1,8 +1,7 @@
-import "react";
-
-
-function Headerg() {
+export default function Headera() {
   return (
+    <div>
+      
     <div>
       <div className="head">
         <div className="part1">
@@ -10,7 +9,7 @@ function Headerg() {
             <div>
               <img src="/images/call image.png" alt="" className="mas" />
             </div>
-            <p>+250 784 688 641</p>
+            <p className="bas">+250 784 688 641</p>
           </div>
           <div className="cll">
             <div>
@@ -25,7 +24,7 @@ function Headerg() {
             <img src="/images/download  instal.png" alt="" className="altt" />
           </div>
         </div>
-        <div className="part2">
+                <div className="part2">
           <div className="part2-1">
             <div className="call">
               <img
@@ -44,7 +43,7 @@ function Headerg() {
                     <a href="/about">About</a>
                   </li>
                   <li>
-                    <a href="/package"> Tour pakage</a>
+                    <a href="/package"> Tourpakage</a>
                   </li>
                   <li>
                     <a href="/gallery">Gallery</a>
@@ -63,21 +62,60 @@ function Headerg() {
             <button className="btnn1">Sign in</button>
           </div>
         </div>
-        <div className="headert">
-            <div className="">
-                <h1 className="pac">Gallery</h1>
-            </div>
-            <div className="pack">
-                <h2>Home</h2>
-                <img src="/images/single-arrow-rightvec.png" alt="" className="vector" />
-                <h3>Gallery</h3>
-            </div>
-  
+        <div className="grid">
+    <div className="grid1">
+      <h1>
+        We are dedicated to <br />
+        providing the best <br />
+        travel experince.
+      </h1>
+      <p>Discover the Land of a Thousand Hills</p>
+      <div className="cat1">
+        <div className="cate1">
+          <div>
+            <h6>Guest</h6>
+            <h4>
+              2 Adult{" "}
+              <img
+                src="https://icon-library.com/images/dropdown-arrow-icon/dropdown-arrow-icon-29.jpg"
+                alt="1"
+              />
+            </h4>
+          </div>
+          <div>
+            <h6>Date</h6>
+            <h4>
+              12-13 April 2021{" "}
+              <img
+                src="https://icon-library.com/images/dropdown-arrow-icon/dropdown-arrow-icon-29.jpg"
+                alt="2"
+              />
+            </h4>
+          </div>
+          <div>
+            <h6>Package</h6>
+            <h4>
+              All{" "}
+              <img
+                src="https://icon-library.com/images/dropdown-arrow-icon/dropdown-arrow-icon-29.jpg"
+                alt="3"
+              />
+            </h4>
+          </div>
         </div>
+        <button type="submit" className="btn">
+          Book Now
+        </button>
       </div>
-
     </div>
-  );
+    <div className="gride2">
+      <img src="https://s3-alpha-sig.figma.com/img/4ff2/5fbb/d22801330eccf9aaeedf7388f729ecdf?Expires=1743379200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=lEeXOd~NLNPd6XCObmaV~zYBNm9loEoJ1NvGhDzAS3tzPeqCWiWX1o6C5BYe3keqsQN~wJZ64D9ZWQJ5WtmhsJlLB2wANUv-WnZrUfV4PN1b2hlMdcYEzrx7~8SDhxyuLI2fOHkTZrxygDFM5Q5jYmO5fxd1NsG4DHXyAEE2hxpWlrRqY-An9QaPqxX8xNxeFhVK0wHJoEheRCDbAtpQorKciMybMefiYlRwIdhvmsGWydn~xwRG8XEDUWvD-1KERe7zjZWTKK4rgEbHptT63iSM-hjpk9DFWkn1SC~M9lw~GTkmJm4p3RtCnd3dNPqsAjGP2xsDMwB~OxCpim2nGg__" alt="" className="monkey" />
+      
+    </div>
+    </div>
+        
+      </div>
+    </div>
+    </div>
+  )
 }
-
-export default Headerg;

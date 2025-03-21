@@ -1,12 +1,12 @@
 import 'react'
-import Headertour from '../Components/headertour'
+import Headera from '../Components/Headera'
 import Bodya from '../Components/bodya'
 import Footera from '../Components/Footera'
 
 function Aboutpage() {
   return (
     <>
-    <Headertour />
+    <Headera/>
     <Bodya/>
     <Footera/>
 
