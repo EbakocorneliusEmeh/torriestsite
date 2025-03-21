@@ -11,9 +11,9 @@
                 <h4>
                     <p>Phone: +250 788 123 456</p>
                     <p>Email: info@rwandatourism.com </p>
-                    <p>Address: Kigali, Rwanda</p>
+                    <p>Address: Kigali, Rwanda.</p>
                 </h4>
-                <h2>Subscribe to our newspaper</h2>
+                <h2>Subscribe to our newspaper.</h2>
                 <div className="baad">
            <input
             type="text"
